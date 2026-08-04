@@ -15,6 +15,7 @@ cask "spectroscope" do
   # The run kit bundles a jlink'd JRE and llama.cpp's llama-server for
   # Apple silicon only; there is no Intel build to fall back to.
   depends_on arch: :arm64
+  depends_on macos: :big_sur
 
   app "spectroscope.app"
 
