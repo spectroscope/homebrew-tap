@@ -1,6 +1,6 @@
 cask "spectroscope" do
-  version "0.10.0"
-  sha256 "083b7c4e5d8eebfc9805a9c87aedc0f719fbe33f283dffa56796ed23369d6f10"
+  version "0.11.0"
+  sha256 "955a40fcc499c31e39915a1c015804e7f79dee67dc3d79c3254f6c451a88aab9"
 
   url "https://github.com/spectroscope/spectroscope/releases/download/v#{version}/spectroscope-#{version}-arm64.dmg"
   name "spectroscope"
@@ -15,7 +15,7 @@ cask "spectroscope" do
   # The run kit bundles a jlink'd JRE and llama.cpp's llama-server for
   # Apple silicon only; there is no Intel build to fall back to.
   depends_on arch: :arm64
-  depends_on macos: :big_sur
+  depends_on macos: :monterey
 
   app "spectroscope.app"
 
