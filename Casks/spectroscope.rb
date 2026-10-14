@@ -1,6 +1,6 @@
 cask "spectroscope" do
-  version "0.15.4"
-  sha256 "3fd172635dafc13f4bc4e7db1b14daac6dbb06797135d6921fe4b8ecd801ef5d"
+  version "0.15.5"
+  sha256 "c4e51dc6abc7d5489e3358e0e47b757248bfd2206c9c4bf5c23df1f8a1827e48"
 
   url "https://github.com/spectroscope/spectroscope/releases/download/v#{version}/spectroscope-#{version}-arm64.dmg"
   name "spectroscope"
